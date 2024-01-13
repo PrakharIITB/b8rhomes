@@ -7,7 +7,11 @@ const PropertyTile = (props) => {
     const price = props.price.toLocaleString('en-US', { style: 'currency', currency: 'USD'})
 
     return (
-        <div className="property-tile rounded-lg" onClick={() => navigate(`/property/${props._id}`)}>
+        <div className="property-tile rounded-lg" onClick={() =>{
+                localStorage.setItem('property_id', props._id);
+                localStorage.setItem('image', props.index + 1)
+                navigate(`/property`);
+            }}>
             {console.log(props.index)}
             <div className="h-[70%]"><img className="rounded-lg w-full h-full" src={`./property/image${props.index + 1}.jpeg`} alt="img" /></div>
             <div id="details" className="flex justify-between px-4 py-2">

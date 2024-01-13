@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Login />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/property/:id' element={<Property />} />
+          <Route path='/property' element={<Property />} />
           <Route path='*' element={<Error />} />
         </Routes>
       </Router>
