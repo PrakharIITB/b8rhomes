@@ -10,5 +10,5 @@ cd backend
 npm install
 npm run dev
 ```
-
-
+The link to the page for the summary is:
+[https://lively-plain-585.notion.site/B8R-Homes-Assignment-838cb376973845b7a2e35fd5d4531119?pvs=4](https://lively-plain-585.notion.site/B8R-Homes-Assignment-838cb376973845b7a2e35fd5d4531119?pvs=4)
